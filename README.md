@@ -5,12 +5,12 @@ Basically all my [Project Euler](https://projecteuler.net/) relevant codes, main
 #### Some functions where you can import from
 + [check_primes](https://github.com/RussellDash332/Project-Euler/blob/main/check_primes.py)
     + is_prime
-+ [choose]((https://github.com/RussellDash332/Project-Euler/blob/main/choose.py))
++ [choose](https://github.com/RussellDash332/Project-Euler/blob/main/choose.py)
     + binom
-+ [number_theory]((https://github.com/RussellDash332/Project-Euler/blob/main/number_theory.py))
++ [number_theory](https://github.com/RussellDash332/Project-Euler/blob/main/number_theory.py)
     + gcd
     + lcm
-+ [palindromes]((https://github.com/RussellDash332/Project-Euler/blob/main/palindromes.py))
++ [palindromes](https://github.com/RussellDash332/Project-Euler/blob/main/palindromes.py)
     + is_palindrome
 
 #### Noob Notes 🤪
