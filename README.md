@@ -13,6 +13,7 @@ Basically all my [Project Euler](https://projecteuler.net/) relevant codes, main
     + factorial
     + factor
     + sum_factor
+    + fib
 + [palindromes](https://github.com/RussellDash332/Project-Euler/blob/main/palindromes.py)
     + is_palindrome
 
