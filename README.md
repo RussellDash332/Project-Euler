@@ -10,6 +10,7 @@ Basically all my [Project Euler](https://projecteuler.net/) relevant codes, main
 + [number_theory](https://github.com/RussellDash332/Project-Euler/blob/main/number_theory.py)
     + gcd
     + lcm
+    + factorial
 + [palindromes](https://github.com/RussellDash332/Project-Euler/blob/main/palindromes.py)
     + is_palindrome
 
