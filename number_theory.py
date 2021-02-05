@@ -28,3 +28,12 @@ def sum_factor(n):
         if n % i == 0:
             answer += i
     return answer
+
+def fib(n):
+    if n < 1:
+        return 0
+    else:
+        a,b = 0,1
+        for _ in range(n):
+            a,b = b,a+b
+        return a
