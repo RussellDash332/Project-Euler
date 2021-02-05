@@ -1,6 +1,6 @@
 # Project Euler
 Basically all my [Project Euler](https://projecteuler.net/) relevant codes, mainly in Python.
-> You can also do Project Euler+ [here](https://www.hackerrank.com/contests/projecteuler/challenges).
+> You can also do Project Euler+ by HackerRank [here](https://www.hackerrank.com/contests/projecteuler/challenges).
 
 #### Some functions where you can import from
 + [check_primes](https://github.com/RussellDash332/Project-Euler/blob/main/check_primes.py)
