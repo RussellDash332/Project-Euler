@@ -11,3 +11,6 @@ def is_prime(n):
 
 def is_composite(n):
     return not is_prime(n)
+
+def sieve(n):
+    return list(filter(is_prime,range(1,n)))
