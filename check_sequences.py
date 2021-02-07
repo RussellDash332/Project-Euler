@@ -1,3 +1,5 @@
+# Formula obtained from the quadratic formula
+
 def is_triangle(n):
     return (-1+(8*n+1)**0.5) % 2 == 0
       
