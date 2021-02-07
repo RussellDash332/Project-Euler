@@ -8,3 +8,6 @@ def is_prime(n):
             if n % i == 0:
                 return False
     return True
+
+def is_composite(n):
+    return not is_prime(n)
