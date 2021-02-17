@@ -9,8 +9,11 @@ Basically all my [Project Euler](https://projecteuler.net/) relevant codes, main
     + ```sieve```, returns a list of all prime numbers up to the input integer
 + [check_sequences](https://github.com/RussellDash332/Project-Euler/blob/main/check_sequences.py)
     + ```is_triangle```, checks whether an integer is in the form ```n(n+1)/2```
+    + ```is_square```, checks whether an integer is in the form ```n**2```
     + ```is_pentagonal```, checks whether an integer is in the form ```n(3n-1)/2```
     + ```is_hexagonal```, checks whether an integer is in the form ```n(2n-1)```
+    + ```is_heptagonal```, checks whether an integer is in the form ```n(5n-3)/2```
+    + ```is_octagonal```, checks whether an integer is in the form ```n(3n-2)```
 + [choose](https://github.com/RussellDash332/Project-Euler/blob/main/choose.py)
     + ```binom```, takes two integers ```n``` and ```r```, returning ```nCr```
 + [number_theory](https://github.com/RussellDash332/Project-Euler/blob/main/number_theory.py)
