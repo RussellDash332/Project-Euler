@@ -18,7 +18,7 @@ lst = list(filter(check, range(1, int(1e7) + 1)))
 print(min(lst, key=lambda x: x/totient(x)))
 """
 
-p = sieve(5000)
+p = sieve(5000)[1]
 for i in range(len(p)):
     for j in range(i + 1, len(p)):
         if p[i] * p[j] <= 1e7 and sorted(str(p[i] * p[j])) == sorted(str(p[i] * p[j] - p[i] - p[j] + 1)):

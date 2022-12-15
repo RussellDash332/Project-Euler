@@ -2,7 +2,7 @@
 
 from check_primes import sieve
 
-primes = sieve(1000000)
+primes = sieve(1000000)[1]
 
 length = 0 # length of the longest chain
 answer = 0

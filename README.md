@@ -26,6 +26,7 @@ Basically all my [Project Euler](https://projecteuler.net/) relevant codes, main
     + ```factor```, returns the number of positive factors of the input integer
     + ```sum_factor```, returns the sum of all positive factors of the input integer
     + ```fib```, returns the n-th Fibonacci number, where n is the input
+    + ```congruence```, takes three integer inputs a, b, m and solves for x where ax = b mod m
 + [palindromes](https://github.com/RussellDash332/Project-Euler/blob/main/palindromes.py)
     + ```is_palindromic```, checks whether an *integer* or *string-ized integer* is a palindrome
 
