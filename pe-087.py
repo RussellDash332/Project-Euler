@@ -1,6 +1,6 @@
 from check_primes import sieve
 
-primes = sieve(10**4)
+primes = sieve(10**4)[1]
 
 K = 5e7
 v = set()

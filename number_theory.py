@@ -43,3 +43,14 @@ def fib(n):
         for _ in range(n):
             a, b = b, a + b
         return a
+
+def congruence(a, b, m):
+    if b == 0:
+        return 0
+    if a < 0:
+        a = -a
+        b = -b
+    b %= m
+    while a > m:
+        a -= m
+    return (m * congruence(m, -b, a) + b) // a

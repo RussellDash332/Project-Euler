@@ -25,4 +25,4 @@ def sieve(n):
         if p == 2:
             p -= 1
         p += 2
-    return primes
+    return s, primes

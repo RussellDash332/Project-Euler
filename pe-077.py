@@ -1,16 +1,6 @@
-LIMIT = 10**4
-sieve = [True] * (LIMIT + 1)
-primes = []
+from check_primes import sieve
 
-p = 2
-while p <= LIMIT:
-    if sieve[p]:
-        primes.append(p)
-        for i in range(2*p, LIMIT, p):
-            sieve[i] = False
-    if p == 2:
-        p -= 1
-    p += 2
+primes = sieve(10**4)[1]
 
 def num_sum_prime(n):
     mem = {}
