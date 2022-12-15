@@ -13,4 +13,16 @@ def is_composite(n):
     return not is_prime(n)
 
 def sieve(n):
-    return list(filter(is_prime,range(1,n)))
+    s = [True] * (n + 1)
+    primes = []
+
+    p = 2
+    while p <= n:
+        if s[p]:
+            primes.append(p)
+            for i in range(2*p, n, p):
+                s[i] = False
+        if p == 2:
+            p -= 1
+        p += 2
+    return primes
